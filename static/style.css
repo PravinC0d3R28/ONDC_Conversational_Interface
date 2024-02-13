@@ -16,7 +16,7 @@ body {
   background-position:unset;
 }
 
-.middle-link {
+.voicechatbot-link {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -29,14 +29,32 @@ body {
   text-align: center
 }
 
-.middle-link a {
-  color: rgb(0, 0, 0); /* Match the color of your chatbot button */
+.voicechatbot-link a {
+  color: rgb(0, 0, 0); 
   text-decoration: none;
   font-weight: 600;
 }
 
-.middle-link a:hover {
+.voicechatbot-link a:hover {
   text-decoration: underline;
+}
+.textchatbot {
+  position: fixed;
+  top: 85%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 30px;
+  text-align: center
+}
+
+.textchatbot p {
+  color: rgb(0, 0, 0); 
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .chatbot-toggler {
